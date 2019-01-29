@@ -1,14 +1,14 @@
 # Site settings
-name: Less Or More
+name: 灵均
 email: 435504468@qq.com
 author: 笨小孩
 url: http://www.hifreud.com
-resume_site: http://www.hifreud.com/Resume.io/
-github: https://github.com/luoyan35714/
+#resume_site: http://www.hifreud.com/Resume.io/
+github: https://github.com/benxiaohail
 baseurl: "/"
-description: Actually, less is more!
-meta_description: 康志华;个人博客;学而不思则罔;思而不学则殆;生命不止;折腾不休
-motto: It's our wits that make us men.
+description: 。。。
+meta_description: 笨小孩;个人博客;学而不思则罔;思而不学则殆;生命不止;折腾不休
+motto: 名余曰正则兮，字余曰灵均 
 banner: 学而不思则罔，思而不学则殆。
 
 #permalink: /:categories/:year/:month/:day/:title/
