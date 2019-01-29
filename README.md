@@ -1,37 +1,63 @@
-## Welcome to GitHub Pages
+# nandomoreira.me jekyll theme
 
-You can use the [editor on GitHub](https://github.com/benxiaohail/benxiaohail.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### [Preview](https://nandomoreirame.github.io/nandomoreira-jekyll-theme/)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Setup
 
-```markdown
-Syntax highlighted code block
+### In the terminal run the commands
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```
+$ sudo npm i -g gulp bower browser-sync
+$ sudo gem install bundler
+$ bundle install
+$ npm install
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Using Rake tasks
 
-### Jekyll Themes
+```
+$ rake post title="TITLE OF THE POST"
+$ rake page name="about.md"
+$ rake category title="Programing"
+$ rake tag title="Jekyll"
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/benxiaohail/benxiaohail.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## Using Jekyll
 
-### Support or Contact
+### Running the server:
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+```
+$ jekyll server
+```
+
+Access, [localhost:4000](http://localhost:4000/)
+
+## Using Gulp
+
+### Rum gulp
+
+```
+$ gulp
+```
+
+---
+
+## Deploy in Github pages in 2 steps
+
+1. Change the variables `GITHUB_REPONAME` and `GITHUB_REPO_BRANCH` in `Rakefile`
+2. Run `rake` or `rake publish` for build and publish on Github
+
+---
+
+* [Jekyll](http://jekyllrb.com/)
+* [Jekyll Documentation](http://jekyllrb.com/docs/home/)
+
+---
+
+### Copyright and license
+
+It is under [the MIT license](/LICENSE).
+
+Enjoy! :yum:
